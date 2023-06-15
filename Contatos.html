@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Violência Contra a Pessoa Idosa</title>
+</head>
+<body>
+    <title>Página de Contatos</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+      }
+      .container {
+        max-width: 500px;
+        margin: 0 auto;
+        padding: 20px;
+      }
+      h1 {
+        text-align: center;
+      }
+      label {
+        display: block;
+        margin-bottom: 10px;
+      }
+      input[type="text"],
+      input[type="email"],
+      textarea {
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+        margin-bottom: 20px;
+      }
+      input[type="submit"] {
+        background-color: #0b98cf;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <title>Barra de Menu</title>
+    <style>
+      
+      .menu {
+        background-color: #117fe6;
+        overflow: hidden;
+      }
+  
+     
+      .menu a {
+        float: left;
+        display: block;
+        color: #000000;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+  
+      
+      .menu a:hover {
+        background-color: #ddd;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="menu">
+      <a href="Home.html">HOME</a>
+      <a href="Sobre.html">SOBRE</a>
+      <a href="Contatos.html">CONTATOS</a>
+    </div>
+    
+    <div class="container">
+      <h1>ENTRE EM CONTATO CONOSCO</h1>
+      <form action="submit-form.php" method="post">
+        <label for="name">NOME:</label>
+        <input type="text" id="name" name="name" required />
+        
+        <label for="email">EMAIL:</label>
+        <input type="email" id="email" name="email" required />
+        
+        <label for="message">DIGITE AQUI UMA MENSAGEM DE AJUDA(OBS: SERÁ UMA MENSAGEM ANONIMA, SOMENTE O ATENDENTE PODERÁ LER):</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+        
+        <input type="submit" value="Enviar" />
+      </form>
+    </div>
+    
+    
+
+</body>
+</html>
